@@ -1,10 +1,26 @@
 {
-  "name": "Homework2",
+  "name": "homework2-Creswell",
   "version": "1.0.0",
+  "description": "Homework 2",
   "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MissouriState-CSC515-Spring2019/Homework2-ccreswell97.git"
+  },
+  "author": "Carmen Creswell <carmen12@live.missouristate.edu>",
   "license": "UNLICENSED",
-  "private": true,
+  "bugs": {
+    "url": "git+https://github.com/MissouriState-CSC515-Spring2019/Homework2-ccreswell97.git"
+  },
+  "homepage": "https://github.com/MissouriState-CSC515-Spring2019/Homework2-ccreswell97#readme",
   "dependencies": {
-    "csc-adv-int-basic-gallery": "^1.0.0"
+    "csc-adv-int-basic-gallery": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.28.4",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.1"
   }
 }
