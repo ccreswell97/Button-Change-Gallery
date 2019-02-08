@@ -1,0 +1,10 @@
+{
+  "name": "Homework2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "csc-adv-int-basic-gallery": "^1.0.0"
+  }
+}
