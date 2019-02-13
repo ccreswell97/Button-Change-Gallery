@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Homework 2",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+      "start":"node_modules/.bin/webpack-dev-server --mode=development"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MissouriState-CSC515-Spring2019/Homework2-ccreswell97.git"
