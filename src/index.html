@@ -50,7 +50,7 @@
       
     .thumbnail {
       background-color: #f2f2f2;
-      padding: 12px;
+      padding: 0px;
       box-sizing: border-box;
       width: 500px;
       overflow: scroll;
@@ -60,18 +60,21 @@
     .thumbnail .small-images {
       list-style-type: none;
     }
-      
+     
+    .thumbnail .small-images img {
+      max-height: 75px;
+      max-width: 100%;
+      border: solid transparent;
+      border-width: 5px;
+    }
+
     .thumbnail .small-images img:hover {
       list-style-type: none;
       border-style: solid;
       border-width: 5px;
+      border-color: pink;
     }
-      
-    .thumbnail .small-images img {
-      max-height: 75px;
-      max-width: 100%;
-    }
-      
+    
     .thumbnail .small-images li {
       display: inline;
     }
@@ -79,6 +82,11 @@
     button {
         background: none;
         border: none;
+    }
+    .change-buttons {
+      text-align: center; 
+      background-color: #f2f2f2;
+      width: 500px;
     }
   </style>
 </head>
@@ -109,6 +117,5 @@
     <span id="totalPic">5</span>
     <button type="button" id="right-button">&gt;</button>
   </div>
-<div id=demo></div>
 </body>
 </html>

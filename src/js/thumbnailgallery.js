@@ -13,5 +13,8 @@ export class ThumbnailGallery extends BasicGallery {
         document.getElementById('3').addEventListener('click', this.slide.bind(this, 2), false);
         document.getElementById('4').addEventListener('click', this.slide.bind(this, 3), false);
         document.getElementById('5').addEventListener('click', this.slide.bind(this, 4), false);
-    }    
+    } 
+    slideChanged() {
+        document.getElementById("currentPic").innerHTML = this.index + 1;
+    }   
 }
